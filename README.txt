@@ -16,7 +16,7 @@ PUBLICACAO RENDER:
 4. Start: gunicorn app:server --bind 0.0.0.0:$PORT
 5. Aguardar deploy e testar todos os filtros.
 
-LINK PUBLICO: [PREENCHER APOS DEPLOY]
+LINK PUBLICO: https://dashboard-vendas-2020-29iv.onrender.com/
 
 OBSERVACOES:
 - Dados de 2020 da planilha original fornecida.
