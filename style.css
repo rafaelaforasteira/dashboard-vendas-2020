@@ -1,0 +1,27 @@
+
+*{box-sizing:border-box}body{background:#0b1020;color:#ecf1fc;font-family:Inter,Arial,sans-serif;margin:0}
+.app-shell{max-width:1500px;padding:35px 28px;margin:auto}.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:25px}
+h1{font-size:33px;font-weight:750;margin:7px 0}.eyebrow{font-size:11px;letter-spacing:2px;color:#91a9ff;font-weight:700}
+.subtitle{color:#96a5c0;font-size:13px;margin:5px 0}.year-pill{padding:11px 17px;border:1px solid #34415d;border-radius:50px;color:#bac8df;font-size:12px}
+.filter-panel,.panel,.kpi{background:#171f31;border:1px solid #2b364e;border-radius:16px}
+.filter-panel{padding:18px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr)) auto;gap:12px;align-items:end}
+.filter-item{min-width:0}.filter-label,.kpi-label{display:block;font-size:11px;color:#9baac4;font-weight:700;letter-spacing:.4px;margin-bottom:8px}
+.filter-dropdown .Select-control{border:1px solid #36435a;background:#202a40;color:#fff}
+.filter-dropdown .Select-placeholder,.filter-dropdown .Select-value-label{color:#e9efff!important}
+.filter-dropdown .Select-menu-outer{background:#242e43;color:#ecf1fc}
+.filter-dropdown .Select--multi .Select-value{background:#35456b;border-color:#667db6;color:white}
+.filter-dropdown .Select-input>input{color:white!important}
+.clear-btn{border:1px solid #425172;background:#2a3650;color:white;border-radius:8px;padding:10px;cursor:pointer}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin:20px 0}
+.kpi{padding:23px}.kpi-value{font-weight:750;font-size:clamp(17px,2vw,27px);overflow-wrap:anywhere}
+.chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:15px}
+.panel{padding:18px;min-width:0;margin-bottom:15px}.chart-title,.section-title{font-size:16px;font-weight:700;margin:0 0 8px}
+.table-scroll{overflow:auto;max-height:460px}.sales-table{width:100%;border-collapse:collapse;font-size:13px}
+.sales-table th{background:#222d44;color:#aab9d0;position:sticky;top:0;text-align:left}
+.sales-table th,.sales-table td{padding:12px;border-bottom:1px solid #304059}
+.sales-table td:not(:first-child),.sales-table th:not(:first-child){text-align:right}
+.geo-panel{display:grid;grid-template-columns:minmax(250px,1fr) minmax(0,2fr);gap:24px}
+.geo-filters{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}
+footer{color:#7e91af;font-size:12px;text-align:center;margin:30px 0}
+@media(max-width:1050px){.filter-panel{grid-template-columns:repeat(3,1fr)}.geo-panel{grid-template-columns:1fr}}
+@media(max-width:680px){.app-shell{padding:18px 12px}.header{align-items:start}.year-pill{display:none}.filter-panel{grid-template-columns:1fr 1fr}.kpi-grid{grid-template-columns:1fr 1fr}.chart-grid{grid-template-columns:1fr}.kpi{padding:15px}.geo-filters{grid-template-columns:1fr}}
